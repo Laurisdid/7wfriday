@@ -1,113 +1,153 @@
-body{
-    background-color: rgb(127, 236, 255);
-    color: blue;
-    
+body {
+  height: 100vh;
+  margin: 0;
+  background: rgb(234, 248, 255);
+  background: linear-gradient(
+    41deg,
+    rgba(234, 248, 255, 1) 0%,
+    rgba(198, 239, 255, 1) 100%
+  );
+  color: blue;
+  background-size: cover;
 }
-.center{
-    background-color: white;
-    margin: 10%;
-    display: inline-block;
+.center {
+  background-color: white;
+  margin: 10%;
+  display: inline-block;
 }
-.b{
-    margin-left: 10%;
-    padding-top: 5%;
-    
+.b {
+  margin-left: 10%;
+  padding-top: 5%;
 }
-.names{
-    margin: 5%;
-    margin-top: 0;
-    margin-bottom: 0;
-    display: inline-block;
-    width: 90%;
+.names {
+  margin: 5%;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: inline-block;
+  width: 90%;
 }
-.vardas{
-    background-color: rgb(127, 236, 255);
-    float: left;
-    margin:2%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 20px;
-    width: 30%;
-    margin-top: 0;
-    margin-bottom: 0;
-    border-radius: 5px; 
-    
+.vardas {
+  background: rgb(223, 237, 247);
+  background: linear-gradient(
+    90deg,
+    rgba(223, 237, 247, 1) 0%,
+    rgba(185, 213, 246, 1) 40%,
+    rgba(197, 240, 249, 1) 100%
+  );
+  float: left;
+  margin: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 20px;
+  width: 30%;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 5px;
 }
-.pavard{
-    background-color: rgb(127, 236, 255);
-    float: right;
-    margin:2%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 20px;
-    width: 30%;
-    margin-left: 0; 
-    margin-top: 0;
-    margin-bottom: 0;
-    border-radius: 5px; 
+.pavard {
+  background: rgb(223, 237, 247);
+  background: linear-gradient(
+    90deg,
+    rgba(223, 237, 247, 1) 0%,
+    rgba(185, 213, 246, 1) 40%,
+    rgba(197, 240, 249, 1) 100%
+  );
+  float: right;
+  margin: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 20px;
+  width: 30%;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 5px;
 }
-.contacts{
-    margin: 5%;
-    margin-top: 0;
-    margin-bottom: 0;
-    display: inline-block;
-    width: 90%;
-    border-radius: 5px; 
+.contacts {
+  margin: 5%;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: inline-block;
+  width: 90%;
+  border-radius: 5px;
 }
-.email{
-    background-color: rgb(127, 236, 255);
-    float: left;
-    margin:2%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 20px;
-    width: 30%;
-    border-radius: 5px; 
-    
+.email {
+  background: rgb(223, 237, 247);
+  background: linear-gradient(
+    90deg,
+    rgba(223, 237, 247, 1) 0%,
+    rgba(185, 213, 246, 1) 40%,
+    rgba(197, 240, 249, 1) 100%
+  );
+  float: left;
+  margin: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 20px;
+  width: 30%;
+  border-radius: 5px;
 }
-.phone{
-    background-color: rgb(127, 236, 255);
-    float: right;
-    margin:2%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 20px;
-    width: 30%;
-    margin-left: 0;
-    border-radius: 5px; 
+.phone {
+  background: rgb(223, 237, 247);
+  background: linear-gradient(
+    90deg,
+    rgba(223, 237, 247, 1) 0%,
+    rgba(185, 213, 246, 1) 40%,
+    rgba(197, 240, 249, 1) 100%
+  );
+  float: right;
+  margin: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 20px;
+  width: 30%;
+  margin-left: 0;
+  border-radius: 5px;
 }
-.adress{
-    background-color: rgb(127, 236, 255);
-    margin:2%;
-    margin-left: 10%;
-    margin-right: 10%;
-    border-radius: 5px; 
-    padding: 20px;
+.adress {
+  background: rgb(243, 242, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(243, 242, 255, 1) 0%,
+    rgba(225, 225, 246, 1) 40%,
+    rgba(184, 243, 255, 1) 100%
+  );
+  margin: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 5px;
+  padding: 20px;
 }
-.msg{
-    background-color: rgb(127, 236, 255);
-    margin:2%;
-    margin-left: 10%;
-    margin-right: 10%;
-    border-radius: 5px; 
-    padding: 20px;
-    padding-top: 5px;
+.msg {
+  background: rgb(234, 233, 245);
+  background: linear-gradient(
+    90deg,
+    rgb(205, 201, 247) 0%,
+    rgb(182, 182, 216) 40%,
+    rgb(167, 222, 233) 100%
+  );
+  margin: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 5px;
+  padding: 20px;
+  padding-top: 5px;
 }
-.btnsub{
-    margin-left: 33%;
-    width: 150px;
-    height: 40px; 
-    right: 85px; 
-    border: black;
-    background-color:blue ;
-    color: white;
-    cursor: pointer;
-    border-radius: 25px; 
-    font-size: 15px;
-    text-align: center;
+.btnsub {
+  margin-left: 33%;
+  width: 150px;
+  height: 40px;
+  right: 85px;
+  border: black;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 15px;
+  text-align: center;
 }
-.thx{
-    color: rgb(94, 202, 166);
-    margin:3%;
-    margin-left: 10%;
+.thx {
+  color: rgb(94, 202, 166);
+  margin: 3%;
+  margin-left: 10%;
 }
