@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(127, 236, 255);
+    color: blue;
+    
+}
+.center{
+    background-color: white;
+    margin: 10%;
+    display: inline-block;
+}
+.b{
+    margin-left: 10%;
+    padding-top: 5%;
+    
+}
+.names{
+    margin: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline-block;
+    width: 90%;
+}
+.vardas{
+    background-color: rgb(127, 236, 255);
+    float: left;
+    margin:2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    width: 30%;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 5px; 
+    
+}
+.pavard{
+    background-color: rgb(127, 236, 255);
+    float: right;
+    margin:2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    width: 30%;
+    margin-left: 0; 
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 5px; 
+}
+.contacts{
+    margin: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline-block;
+    width: 90%;
+    border-radius: 5px; 
+}
+.email{
+    background-color: rgb(127, 236, 255);
+    float: left;
+    margin:2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    width: 30%;
+    border-radius: 5px; 
+    
+}
+.phone{
+    background-color: rgb(127, 236, 255);
+    float: right;
+    margin:2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    width: 30%;
+    margin-left: 0;
+    border-radius: 5px; 
+}
+.adress{
+    background-color: rgb(127, 236, 255);
+    margin:2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 5px; 
+    padding: 20px;
+}
+.msg{
+    background-color: rgb(127, 236, 255);
+    margin:2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 5px; 
+    padding: 20px;
+    padding-top: 5px;
+}
+.btnsub{
+    margin-left: 33%;
+    width: 150px;
+    height: 40px; 
+    right: 85px; 
+    border: black;
+    background-color:blue ;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px; 
+    font-size: 15px;
+    text-align: center;
+}
+.thx{
+    color: rgb(94, 202, 166);
+    margin:3%;
+    margin-left: 10%;
+}
